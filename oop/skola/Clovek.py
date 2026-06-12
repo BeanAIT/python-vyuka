@@ -14,14 +14,3 @@ class Clovek:
             return True
         else:
             return False
-
-zaci = []        
-zaci.append(Clovek("David", "Reschke", "muž", 19))
-zaci.append(Clovek("Petr", "Bui", "muž", 19))
-zaci.append(Clovek("Natalie", "Mikšovská", "žena", 19))
-zaci.append(Clovek("Armin", "Lyavinets", "muž", 18))
-zaci.append(Clovek("Nicholas", "Ras", "muž", 18))
-zaci.append(Clovek("Samuel", "El Bakri", "muž", 18))
-
-for zak in zaci:
-    print(zak)
